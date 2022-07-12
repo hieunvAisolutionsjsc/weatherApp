@@ -1,0 +1,40 @@
+:root{
+    --bg-main : rgb(26, 228, 19);
+}
+.form{
+    margin: 0 auto;
+}
+body > h1{
+    text-align: center;
+}
+h2{
+    margin-top: 3rem;
+    text-align: center;
+}
+#content{
+    margin-top: 1rem;
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 3rem;
+    background: var(--bg-main);
+    border-radius: 50px;
+    box-shadow: 1px 10px 20px rgb(221, 219, 219);
+}
+#where{
+    width: 100%;
+    text-align: center;
+}
+#content > div{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#content > div > *{
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
